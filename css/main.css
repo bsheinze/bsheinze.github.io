@@ -1,0 +1,15 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: url('../images/noise-background.png') rgb(90,81,64);
+	margin: 0 auto;
+}
+
+header {
+	background: rgb(72,78,90);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+	color: rgb(166,161,151);
+}
+
+section {
+	background: rgb(243,243,243);
+}
