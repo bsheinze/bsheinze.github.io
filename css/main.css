@@ -19,6 +19,28 @@ button:focus {
 	outline: none;
 }
 
+h1 {
+	float: left;
+	cursor: pointer;
+}
+
+a {
+	color: rgb(166,161,151);
+}
+
+a:hover {
+	color: rgb(151,156,166);
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+h1 > a {
+	color: rgb(243,243,243);
+}
+
 /* Header Content */
 
 header {
@@ -33,17 +55,17 @@ header {
 
 .navbar-nav {
 	font-size: 24px;
-	padding: 0;
+	padding: 0 0 0 20px;
 }
 
 .navbar-nav > li {
 	list-style: none;
-	padding: 20px 0;
+	padding: 25px 0;
 }
 
 .navbar-nav > li > a {
 	color: rgb(166,161,151);
-	padding: 20px;
+	padding: 25px;
 }
 
 .navbar-nav > li > a:hover {
@@ -102,22 +124,12 @@ section {
 
 			Media Queries
 
-**********************************/
+*********************************/
 
-/* Standard View */
-@media (min-width: 768px) {
-  
-  h1 {
-  	display: none;
-  }
-
-}
-
-/* Mobile View */
 @media (max-width: 767px) {
-  
-  h1 {
-  	display: inline-block;
-  }
+	
+	h1 {
+		float: none;
+	}
 
 }
