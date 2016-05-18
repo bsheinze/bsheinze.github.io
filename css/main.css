@@ -2,7 +2,10 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	background: url('../images/noise-background.png') rgb(90,81,64);
 	margin: 0 auto;
+	color: rgb(151,156,166);;
 }
+
+/* Header Content */
 
 header {
 	background: rgb(72,78,90);
@@ -10,6 +13,65 @@ header {
 	color: rgb(166,161,151);
 }
 
+.navbar-nav {
+	font-size: 24px;
+	padding: 0;
+}
+
+.navbar-nav > li {
+	list-style: none;
+	padding: 20px 0;
+}
+
+.navbar-nav > li > a {
+	color: rgb(166,161,151);
+	padding: 20px;
+}
+
+.navbar-nav > li > a:hover {
+	color: rgb(151,156,166);
+}
+
+.navbar-nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.navbar-toggle {
+	padding: 20px 10px;
+}
+
+header .icon-bar {
+	background-color: rgb(166,161,151);
+}
+
+/* Section content */
+
 section {
 	background: rgb(243,243,243);
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+}
+
+/*********************************
+
+			Media Queries
+
+**********************************/
+
+/* Standard View */
+@media (min-width: 768px) {
+  
+  h1 {
+  	display: none;
+  }
+
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  
+  h1 {
+  	display: inline-block;
+  }
+
 }
