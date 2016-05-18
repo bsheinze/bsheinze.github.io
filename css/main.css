@@ -2,15 +2,33 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	background: url('../images/noise-background.png') rgb(90,81,64);
 	margin: 0 auto;
-	color: rgb(151,156,166);;
+	color: rgb(72,78,90);
+}
+
+button {
+	background-color: rgb(72,78,90);
+	color: rgb(243,243,243);
+}
+
+button:hover {
+	background-color: rgb(151,156,166);
+	color: rgb(243,243,243);
+}
+
+button:focus {
+	outline: none;
 }
 
 /* Header Content */
 
 header {
-	background: rgb(72,78,90);
+	background-color: rgb(72,78,90);
 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 	color: rgb(166,161,151);
+}
+
+.nav {
+	margin-bottom: 20px;
 }
 
 .navbar-nav {
@@ -32,6 +50,10 @@ header {
 	color: rgb(151,156,166);
 }
 
+.navbar-nav > li > a:focus {
+	text-decoration: none;
+}
+
 .navbar-nav > li > a:hover, .nav > li > a:focus {
 	text-decoration: none;
 	background-color: inherit;
@@ -48,8 +70,32 @@ header .icon-bar {
 /* Section content */
 
 section {
-	background: rgb(243,243,243);
-	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+	background-color: rgb(243,243,243);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.intro {
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 40px;
+}
+
+.intro-picture {
+	margin: 30px auto;
+	display: block;
+	border-radius: 250px;
+	max-width: 100%
+}
+
+.checkout-portfolio {
+	display: block;
+	margin: 0 auto;
+	font-size: 30px;
+	border-radius: 30px;
+	padding: 10px 20px;
+	border: 0 none;
 }
 
 /*********************************
