@@ -161,9 +161,9 @@ checkout-portfolio a:hover {
 
 .project-details ul {
 	list-style: none;
-	padding-left: 0px;
+	padding-left: 0;
 	font-size: 16px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .project-details li {
@@ -195,5 +195,8 @@ checkout-portfolio a:hover {
 		border-left: 10px solid rgb(151,156,166);
 	}
 
+	.project-details ul {
+		margin-bottom: 10px;
+	}
 
 }
