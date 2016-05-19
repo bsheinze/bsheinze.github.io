@@ -120,6 +120,15 @@ section {
 	border: 0 none;
 }
 
+.checkout-portfolio a {
+	color: rgb(243,243,243);
+}
+
+checkout-portfolio a:hover {
+	background-color: rgb(151,156,166);
+	color: rgb(243,243,243);
+}
+
 /* Portfolio Section */
 
 .project {
@@ -137,10 +146,6 @@ section {
 
 .project-thumbnail img {
 	max-width: 100%;
-}
-
-.project-details {
-
 }
 
 .project-details header {
@@ -184,5 +189,10 @@ section {
 	h1 {
 		float: none;
 	}
+
+	.project {
+		border-left: 10px solid rgb(151,156,166);
+	}
+
 
 }
