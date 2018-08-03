@@ -98,6 +98,11 @@ section {
 	margin-bottom: 25px;
 }
 
+p.about {
+	padding: 15px;
+	font-size: 18px;
+}
+
 .intro {
 	text-align: center;
 	margin-bottom: 25px;
